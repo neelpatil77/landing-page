@@ -38,7 +38,7 @@ a {
 }
 
 .header, .bodyone {
-    background-color: orange;
+    background-color: #ff8c00;
 }
 
 .left {
@@ -55,7 +55,7 @@ button {
     width: 400px;
     height: 50px;
     background-color: whitesmoke;
-    color: orange;
+    color: #ff8c00;
     border-radius: 15px;
     border: none;
     padding: 5px;
@@ -132,7 +132,7 @@ p {
 
 .bodythree {
     display: flex;
-    background-color: orange;
+    background-color: #ff8c00;
     color: white;
     flex-direction: column;
     align-items: center;
@@ -186,4 +186,11 @@ button {
     justify-content: center;
     padding 20px;
     margin: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8c00;
 }
