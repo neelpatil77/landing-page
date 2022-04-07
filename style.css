@@ -29,9 +29,12 @@ body {
     gap: 75px;
 }
 
+
+
 a {
     color: white;
     text-decoration: none;
+    font-style: ex;
 }
 
 .header, .bodyone {
@@ -43,17 +46,20 @@ a {
     flex-direction: column;
     justify-content: center;
     margin: 100px;
+    font-style: bold; 
+    font-size: 36px;   
 }
 
 button {
-    width: 200px;
-    height: 25px;
+    align-items: center;
+    width: 400px;
+    height: 50px;
     background-color: whitesmoke;
     color: orange;
     border-radius: 15px;
     border: none;
     padding: 5px;
-    
+    font-size: 24px;
 }
 
 
@@ -87,6 +93,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px;
 }
 
 
@@ -112,12 +119,26 @@ p {
     text-align: center;
 }
 
+#top {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#bottom {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .bodythree {
     display: flex;
     background-color: orange;
     color: white;
     flex-direction: column;
     align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: ;
 }
 
 .quote {
@@ -125,8 +146,8 @@ p {
     flex-wrap: wrap;
     font-size: 32px;
     font-style: italic;
+    font-weight: lighter;
     width: 50%;
-    font-weight: 80;
 }
 
 
